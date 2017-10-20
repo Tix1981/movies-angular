@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 
+
 import { exampleMovies } from '../examples'
 import { Observable, Observer } from 'rxjs';
 import { Movie } from '../../shared/models/movie.model';
@@ -27,5 +28,6 @@ export class MovieService {
       this.movies
     );
   }
+
 
 }
