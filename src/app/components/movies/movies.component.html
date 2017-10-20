@@ -1,4 +1,3 @@
-<div *ngFor="let movie of movies">
-  <p>{{ movie.name }}</p>
-  <p>{{ movie.director }}</p>
-</div>
+<ul>
+  <li *ngFor="let movie of movies" [movieRow]="movie"></li>
+</ul>

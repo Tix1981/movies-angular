@@ -9,6 +9,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { MoviesComponent } from './components/movies/movies.component';
 import { MovieService } from './shared/services/movie.service';
 
+
 @NgModule({
   declarations: [
     AppComponent,
