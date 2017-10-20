@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { LayoutComponent } from './components/layout/layout.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MoviesComponent } from './components/movies/movies.component';
+import { MovieService } from './shared/services/movie.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { MoviesComponent } from './components/movies/movies.component';
     AppRoutingModule,
     SharedModule
   ],
-  providers: [],
+  providers: [MovieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

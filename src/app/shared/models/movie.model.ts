@@ -1,4 +1,4 @@
-export class Movies {
+export class Movie {
 
   constructor(
     public id?:number,
