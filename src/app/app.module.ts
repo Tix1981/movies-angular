@@ -8,6 +8,7 @@ import { LayoutComponent } from './components/layout/layout.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MoviesComponent } from './components/movies/movies.component';
 import { MovieService } from './shared/services/movie.service';
+import { SearchModule } from './search/search.module';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { MovieService } from './shared/services/movie.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    SearchModule
   ],
   providers: [MovieService],
   bootstrap: [AppComponent]
